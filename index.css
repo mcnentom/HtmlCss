@@ -1,0 +1,37 @@
+body{
+    background: yellow;
+}
+.main-div{
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    margin-top: 1.9rem;
+    place-items: center;
+}
+.cards-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+   
+   
+    /* border: 2px solid #000; */
+}
+.title-div{
+    justify-items: flex-end;
+    align-content: stretch;
+    text-align: justify;
+}
+.angular,.react,.svlet{
+    border: 2px solid #000;
+    height: 300px;
+    width: 150px; 
+    display: grid;
+    grid-template-rows: .1fr .1fr .1fr;
+    align-content:flex-start;
+    justify-items: center;
+    text-align: center;
+    background: white;
+    border-radius: 1rem;
+}
