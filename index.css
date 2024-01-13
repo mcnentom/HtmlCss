@@ -1,0 +1,28 @@
+.grids{
+    display: grid;
+    gap: .2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 350px;
+}
+.one{
+    background: red;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 2px;
+}
+.two{
+    background: yellow;
+}
+.three{
+    background: blue;
+}
+
+.one1{
+    background: blue;
+}
+.two2{
+    background: white;
+}
+.three3{
+    background: yellow;
+}
