@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Card</title>
+    <link rel="stylesheet" href="order.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="general-div">
+        <div class="navbar-div">
+            <div class="logo">
+                <img src="assets/rings.jpg" alt="logo" width="27px" height="27px">
+            </div>
+            <div class="nav-tags">
+                <a href="#">home</a>
+                <a href="#">shop</a>
+                <a href="#">contact</a>
+                <a href="#">help</a>
+            </div>
+            <div class="profile">
+                <p style="margin:4px 8px;">Account <i class='bx bxs-down-arrow' ></i></p>
+                <p style="margin:4px 8px;"><i class='bx bx-lock-alt'></i> 3 items</p>
+                <img src="assets/person.jpg" alt="profile-photo" width="30px" height="30px">
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="content-div" style="width: 100%;">
+            <div class=" bx account-details" style="width: 55%; gap: .4rem; height: 100%;">
+                <div class="delivery-process" style="width: 70%;" >
+                    <p>Account</p>
+                    <span class="dash"></span>
+                    <!-- <span><i class='bx bxs-checkbox-checked'></i></span> -->
+                    <span class="dash"></span>
+                    <p style="color: cadetblue;">Shipping</p>
+                    <span class="dash"></span>
+                    <!-- <span><i class='bx bxs-checkbox-checked'></i></span> -->
+                    <span class="dash"></span>
+                    <p style="color: cadetblue;">Payment</p>
+                </div>
+                <div class="details" style="margin-bottom: 2rem; width: 65%;">
+                    <h2>Account details</h2>
+                    <div class="form-div">
+                        <form action="">
+                            <label for="email">Email address</label>
+                            <div class="user-details">
+                                <input type="email" name="email" id="email">
+                                <!-- <p><i class='bx bxs-checkbox-checked'></i></p> -->
+                            </div>
+                            <label for="password">Password</label>
+                            <div class="user-details">
+                                <input type="password" name="password" id="password">
+                                <!-- <p><i class='bx bxs-checkbox-checked'></i></p> -->
+                            </div>
+                            <div class="footer-div">
+                                <p>Register for account</p>
+                                <button type="button">Login</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                    
+                </div>
+                <div class="line1"></div>
+                <div class="footer-div" style="width: 65%;">
+                    <p style="color: #317176; opacity: 1;">Cancel order</p>
+                    <button type="button" class="btn3">Shipping details</button> 
+                </div>
+            </div>
+            <div class=" bx order-summary" style="width: 35%;">
+                <div class="image-div">
+                    <h2 style="font-weight: 500;">Order Summary</h2>
+                    <img src="assets/headphones.jpg" alt="headphones" width="100px" height="70px">
+                    <div class="price-description">
+                        <div class="sony-description">
+                            <h3>Sony wireless headphones</h3>
+                            <p style="margin-top: -1.4rem;font-weight: 800;">$320.45</p>
+                        </div>
+                        <div class="increment-button">
+                            <button type="button">-</button>
+                            <p>1</p>
+                            <button type="button">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gift">
+                    <h3 style="color: #317176;font-weight: 400;">Gift Card / Discount code</h3>
+                    <div class="input">
+                        <button type="button" class="btn1"></button>
+                        <button type="button" class="btn2">Apply</button>
+                    </div>
+                </div>
+                <div class="total-payment" style="margin: 0 1rem;">
+                    <div class="total-description">
+                        <p>Sub total</p>
+                        <p style="margin-left: 12rem;font-weight: 800;">$316.55</p>
+                    </div>
+                    <div class="total-description">
+                        <p>Tax</p>
+                        <p style="margin-left: 15rem;font-weight: 800;">$3.45</p>
+                    </div>
+                    <div class="total-description">
+                        <p>Shipping</p>
+                        <p style="margin-left: 13rem;">Free</p>
+                    </div>
+                    <div class="total-description">
+                        <p style="font-weight: 800;">Total</p>
+                        <p style="margin-left: 13.5rem;font-weight: 800;" class="pTag">$320.45</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
